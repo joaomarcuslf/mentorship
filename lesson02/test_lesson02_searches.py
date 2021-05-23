@@ -5,8 +5,12 @@ from lesson02.searches import get_user_index_by_name, get_room_index_by_name, ge
 list01 = ["Letícia", "Gualberto", "Thailani", "João",
             "Marcela", "Mourinha", "Bárbara", "Rômulo"]
 
-matrix01 = [["Letícia", "Gualberto"], ["Thailani", "João"],
-            ["Marcela", "Mourinha", "Bárbara"], ["Rômulo"]]
+matrix01 = [
+    ["Letícia", "Gualberto"],
+    ["Thailani", "João"],
+    ["Marcela", "Mourinha", "Bárbara"],
+    ["Rômulo"]
+]
 
 
 def test_get_user_index_by_name_1():
